@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;1,400&family=Pacifico&display=swap");
+
+.container {
+  @apply w-full max-w-7xl px-3 lg:px-6 mx-auto;
+}

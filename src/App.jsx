@@ -1,8 +1,12 @@
+import Home from "./Components/Home/Home";
+import PopularProducts from "./Components/popularProducts/popularProducts";
+
 const App = () => {
   return (
-    <div>
-      <h1 className="text-3xl underline">Hello world</h1>
-    </div>
+    <>
+      <Home />
+      <PopularProducts />
+    </>
   );
 };
 
